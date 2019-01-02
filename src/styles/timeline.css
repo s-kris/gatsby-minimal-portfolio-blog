@@ -1,0 +1,47 @@
+.vertical-timeline--two-columns
+  .vertical-timeline-element-content
+  .vertical-timeline-element-date {
+  left: 144%;
+}
+
+.vertical-timeline--two-columns
+  .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left)
+  .vertical-timeline-element-content
+  .vertical-timeline-element-date,
+.vertical-timeline--two-columns
+  .vertical-timeline-element.vertical-timeline-element--right
+  .vertical-timeline-element-content
+  .vertical-timeline-element-date {
+  right: 144%;
+}
+
+.vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px #34495e;
+}
+
+.vertical-timeline-element-content {
+  background: #f5f5f5;
+  box-shadow: 0 3px 0 f5f5f5;
+}
+
+.vertical-timeline--two-columns .vertical-timeline-element-content::before {
+  border-left-color: #f5f5f5;
+}
+
+.vertical-timeline--two-columns
+  .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left)
+  .vertical-timeline-element-content::before,
+.vertical-timeline--two-columns
+  .vertical-timeline-element.vertical-timeline-element--right
+  .vertical-timeline-element-content::before {
+  border-right-color: #f5f5f5;
+}
+
+.vertical-timeline::before {
+  /* this is the vertical line */
+  background: #34495e;
+}
+
+.vertical-timeline-element-title {
+  color: #4078c0;
+}
