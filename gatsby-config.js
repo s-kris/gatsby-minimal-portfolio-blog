@@ -3,7 +3,7 @@ module.exports = {
     title: 'gatsby-minimal-portfolio-blog',
     author: 'Sai Krishna',
     description:
-      'GatsbyJS starter for a minimal portfolio with blog. Suitable for developers.',
+      'GatsbyJS starter for a minimal portfolio website with blog. Suitable for developers.',
     siteUrl: 'https://saikrishna.me',
   },
   pathPrefix: '/',
