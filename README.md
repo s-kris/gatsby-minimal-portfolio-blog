@@ -9,6 +9,7 @@ Install this starter (assuming Gatsby is installed) by running from your CLI:
 Or [view the live demo here](https://saikrishna.me).
 
 ## Running in development
+`npm install`
 
 `gatsby develop`
 
