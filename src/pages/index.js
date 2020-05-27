@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import get from 'lodash/get'
-import Hemlet from 'react-helmet'
+import { Helmet } from 'react-helmet'
 
 import Layout from '../components/Layout'
 import DisplayImage from './../assets/images/main_image.jpg'
@@ -16,10 +16,10 @@ class SiteIndex extends React.Component {
 
     return (
       <Layout>
-        <Hemlet>
+        <Helmet>
           <title>{siteTitle}</title>
           <meta name="description" content={siteDescription} />
-        </Hemlet>
+        </Helmet>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. At augue
@@ -37,7 +37,7 @@ class SiteIndex extends React.Component {
         </p>
         <img src={DisplayImage} alt={siteTitle} />
       </Layout>
-    )
+    );
   }
 }
 
